@@ -2,8 +2,6 @@
 import pygame
 from pygame.locals import *
 import keys, settings
-import os
-import time
 import logging
 
 

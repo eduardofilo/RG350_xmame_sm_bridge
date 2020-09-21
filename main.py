@@ -45,22 +45,9 @@ while settings.running:
         screen.render()
         realScreen.blit(settings.screen, (0,0))
         pygame.display.flip()
-        dirty = False   #settings.status in [5, 7]
-
-    if settings.status == 5:    # Doing backups
-        pass
-        #app.do_backup(settings.system)
-        #settings.update_backup_available()
-    if settings.status == 7:    # Doing restore
-        pass
-        #app.do_restore(settings.system)
+        dirty = False
 
     dt = clock.tick(settings.FPS)
-
-# Save changes in config
-if settings.status in [0, 4, 5, 6, 7]:
-    pass
-    #config.save()
 
 pygame.quit()
 sys.exit()
