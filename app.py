@@ -70,8 +70,9 @@ def launch_rom():
     for cfg in settings.cfgs:
         if cfg["enabled"] and cfg["args"][cfg["value"]]:
             args.append(cfg["args"][cfg["value"]])
-    file.write(" ".join(args))
-    logging.debug(args)
+    cmd = " ".join(args)
+    file.write(cmd)
+    logging.debug(cmd)
 
 
 def handle_events(events):
