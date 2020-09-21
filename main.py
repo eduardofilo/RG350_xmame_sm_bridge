@@ -8,7 +8,7 @@ from pygame.locals import *
 
 
 # Initialization
-logging.basicConfig(level=logging.DEBUG, filename=settings.LOG, filemode="a+", format="%(asctime)-15s %(levelname)-8s %(message)s")
+logging.basicConfig(level=logging.ERROR, filename=settings.LOG, filemode="a+", format="%(asctime)-15s %(levelname)-8s %(message)s")
 successes, failures = pygame.init()
 logging.debug("{0} successes and {1} failures".format(successes, failures))
 pygame.font.init()
