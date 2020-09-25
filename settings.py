@@ -182,7 +182,7 @@ if 'dev' in sys.argv:
     BASEDIR = "/home/edumoreno/git/rg350_xmame_sm_bridge"
 else:
     BASEDIR = "/media/data/local/share/xmame"
-LOG = BASEDIR + "/xmame_sm_bridge/log.txt"
+LOG = BASEDIR + "/sm_bridge/log.txt"
 
 # Sample argv list: ['./main.py', '84', '/media/data/roms/ARCADE/bombjack.zip']
 if len(sys.argv) > 1 and sys.argv[1] in ["52", "69", "84"]:
@@ -194,7 +194,7 @@ if len(sys.argv) > 2:
         pass
 
 if 'dev' in sys.argv:
-    cfg_file = BASEDIR + "/xmame_sm_bridge/%s%s.cfg" % (rom, romset)
+    cfg_file = BASEDIR + "/sm_bridge/%s%s.cfg" % (rom, romset)
 else:
     cfg_file = BASEDIR + "/xmame%s/frontend/%s.cfg" % (romset, rom)
 
