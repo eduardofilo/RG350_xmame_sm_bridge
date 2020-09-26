@@ -22,6 +22,9 @@ chown -R root:root /media/data/local/share/xmame/sm_bridge
 sed -i 's/xmame52\/xmame.SDL.52/sm_bridge\/romset.52/g' /media/data/local/home/.simplemenu/section_groups/*.ini
 sed -i 's/xmame69\/xmame.SDL.69/sm_bridge\/romset.69/g' /media/data/local/home/.simplemenu/section_groups/*.ini
 sed -i 's/xmame84\/xmame.SDL.84/sm_bridge\/romset.84/g' /media/data/local/home/.simplemenu/section_groups/*.ini
+sed -i 's/xmame52\/romset.52.sh/sm_bridge\/romset.52/g' /media/data/local/home/.simplemenu/section_groups/*.ini
+sed -i 's/xmame69\/romset.69.sh/sm_bridge\/romset.69/g' /media/data/local/home/.simplemenu/section_groups/*.ini
+sed -i 's/xmame84\/romset.84.sh/sm_bridge\/romset.84/g' /media/data/local/home/.simplemenu/section_groups/*.ini
 
 dialog --msgbox 'Installation completed.' 8 32
 
