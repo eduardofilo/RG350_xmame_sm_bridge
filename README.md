@@ -28,7 +28,7 @@ Once installed we will open it and follow the instructions on the screen:
 
 From now on, when executing a ROM with the xMAME system integrated in SimpleMenu, a small interface will appear very similar to the one shown by the xMAME interface just after selecting the ROM.
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/1OH2ENqr1tA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[https://www.youtube.com/watch?v=1OH2ENqr1tA](https://www.youtube.com/watch?v=1OH2ENqr1tA)
 
 The controls of the xMAME settings screen have been replicated and, as in it, are indicated in the legend below. They are basically these:
 
