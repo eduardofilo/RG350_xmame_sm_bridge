@@ -17,21 +17,3 @@ if [ -f /tmp/run ] ; then
     sh /tmp/run
     rm /tmp/run
 fi
-
-
-# V_GAME_NAME=$(basename "$1")
-# V_GAME_ID=${V_GAME_NAME%%.*}
-# V_GAMES_FILE_ROL=$(dirname "$1")/vertical_roms_rol.txt
-# V_GAMES_FILE_ROR=$(dirname "$1")/vertical_roms_ror.txt
-# if [ -f "$V_GAMES_FILE_ROL" ] && grep -q ^${V_GAME_ID}$ ${V_GAMES_FILE_ROL}
-# then
-#     cp cfg/default_v.cfg cfg/default.cfg
-#     ./xmame.SDL.84 ${V_GAME_ID} -rol -ipu_scaler 0 -nodirty -triplebuf
-# elif [ -f "$V_GAMES_FILE_ROR" ] && grep -q ^${V_GAME_ID}$ ${V_GAMES_FILE_ROR}
-# then
-#     cp cfg/default_v.cfg cfg/default.cfg
-#     ./xmame.SDL.84 ${V_GAME_ID} -ror -ipu_scaler 0 -nodirty -triplebuf
-# else
-#     cp cfg/default_h.cfg cfg/default.cfg
-#     ./xmame.SDL.84 ${V_GAME_ID} -autoror -ipu_scaler 0 -nodirty -triplebuf
-# fi
