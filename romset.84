@@ -13,8 +13,10 @@ echo 0 > /sys/devices/virtual/vtconsole/vtcon1/bind
 /media/data/local/share/xmame/sm_bridge/main.py 84
 
 # Launch ROM
-sh "/tmp/run"
-rm "/tmp/run"
+if [ -f /tmp/run ] ; then
+    sh /tmp/run
+    rm /tmp/run
+fi
 
 
 # V_GAME_NAME=$(basename "$1")
