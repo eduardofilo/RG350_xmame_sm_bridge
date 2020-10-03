@@ -10,7 +10,7 @@
 echo 0 > /sys/devices/virtual/vtconsole/vtcon1/bind
 
 # Launch xmame_sm_bridge
-/media/data/local/share/xmame/sm_bridge/main.py 52
+/media/data/local/share/xmame/sm_bridge/main.py 52 $1
 
 # Launch ROM
 if [ -f /tmp/run ] ; then
