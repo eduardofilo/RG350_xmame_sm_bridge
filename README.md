@@ -24,7 +24,7 @@ Once installed we will open it and follow the instructions on the screen:
 
 ![Install](images/install.png)
 
-## Use
+## Usage
 
 From now on, when executing a ROM with the xMAME system integrated in SimpleMenu, a small interface will appear very similar to the one shown by the xMAME interface just after selecting the ROM.
 
