@@ -6,7 +6,7 @@
 
 When xMAME is integrated into SimpleMenu this settings screen is lost and the ROM is executed with the default options. To improve this situation, a kind of clone of the xMAME settings screen has been developed that can be integrated between SimpleMenu and the xMAME binaries that run the ROM at the end.
 
-It works on both screen models of RG350, i.e. it works for both the original model and the new RG350P and RG350M.
+It works on both screen models of RG350 and on RG280, i.e. it works for both the original model and the new RG350P and RG350M, and also on RG280M and RG280V.
 
 ## Installation
 
